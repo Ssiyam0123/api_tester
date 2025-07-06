@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
       <div className="flex justify-between w-[60%] mx-auto">
         <Link href={'/'}>home</Link>
-        <Link href={'/'}>post</Link>
+        <Link href={'/posts'}>post</Link>
       </div>
     );
   };
