@@ -10,7 +10,7 @@ const postData = async () => {
 
 const DataCard = async () => {
   const data = await postData();
-  console.log(data);
+//   console.log(data);
   return (
     <div className="grid grid-cols-3 gap-4">
       {data.map((card) => (

@@ -1,11 +1,12 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
   const menu = () => {
     return (
       <div className="flex justify-between w-[60%] mx-auto">
-        <p>home</p>
-        <p>post</p>
+        <Link href={'/'}>home</Link>
+        <Link href={'/'}>post</Link>
       </div>
     );
   };
